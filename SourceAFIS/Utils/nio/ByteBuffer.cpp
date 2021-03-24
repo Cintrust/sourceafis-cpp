@@ -3,6 +3,7 @@
 //
 
 #include "ByteBuffer.h"
+#include <string>
 
 ByteBuffer::ByteBuffer(int mark, int pos, int lim, int cap, int off) : _mark(mark), _position(pos), _limit(lim), _capacity(cap), _offset(off) {
     if (cap < 0)
